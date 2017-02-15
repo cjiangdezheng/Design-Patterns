@@ -45,9 +45,9 @@ include_directories(
 	
 
 IF(WIN32)
-	ADD_EXECUTABLE(Strategy_W ${Strategy_SRCS} ${Strategy_SRCS_W})   
+	ADD_EXECUTABLE(Strategy ${Strategy_SRCS} ${Strategy_SRCS_W})   
 ELSE(WIN32)
-	ADD_EXECUTABLE(Strategy_U ${Strategy_SRCS} ${Strategy_SRCS_U})   
+	ADD_EXECUTABLE(Strategy ${Strategy_SRCS} ${Strategy_SRCS_U})   
 ENDIF(WIN32)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
