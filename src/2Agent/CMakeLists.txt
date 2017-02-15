@@ -12,10 +12,16 @@ ELSE(MSVC)
 ENDIF(MSVC) 
 
 set(Agent_SRCS
-	
 	stdafx.cpp
 	stdafx.h
-	
+	IKindWomen.h
+	JiaShi.h
+	JiaShi.cpp
+	PanJinLian.h
+	PanJinLian.cpp
+	WangPo.h
+	WangPo.cpp
+	Agent.cpp
 )
 
 set(Agent_SRCS_W
