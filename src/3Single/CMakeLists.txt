@@ -11,24 +11,19 @@ ELSE(MSVC)
 
 ENDIF(MSVC) 
 
-set(Agent_SRCS
+set(Single_SRCS
 	stdafx.cpp
 	stdafx.h
-	IKindWomen.h
-	JiaShi.h
-	JiaShi.cpp
-	PanJinLian.h
-	PanJinLian.cpp
-	WangPo.h
-	WangPo.cpp
-	Agent.cpp
+	Emperor.cpp
+	Emperor.h
+	Single.cpp
 )
 
-set(Agent_SRCS_W
+set(Single_SRCS_W
 	targetver.h
 	
 )
-set(Agent_SRCS_U
+set(Single_SRCS_U
 #	XXX.cpp
 )
 
@@ -36,15 +31,15 @@ set(Agent_SRCS_U
 
 
 include_directories(
-	${PROJECT_SOURCE_DIR}/2Agent
+	${PROJECT_SOURCE_DIR}/3Single
 	)
 
 	
 
 IF(WIN32)
-	ADD_EXECUTABLE(Agent ${Agent_SRCS} ${Agent_SRCS_W})   
+	ADD_EXECUTABLE(Single ${Single_SRCS} ${Single_SRCS_W})   
 ELSE(WIN32)
-	ADD_EXECUTABLE(Agent ${Agent_SRCS} ${Agent_SRCS_U})   
+	ADD_EXECUTABLE(Single ${Single_SRCS} ${Single_SRCS_U})   
 ENDIF(WIN32)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})

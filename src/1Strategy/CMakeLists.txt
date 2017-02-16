@@ -39,7 +39,7 @@ set(Strategy_SRCS_U
 
 
 include_directories(
-	${PROJECT_SOURCE_DIR}/Strategy
+	${PROJECT_SOURCE_DIR}/1Strategy
 	)
 
 	

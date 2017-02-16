@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 2.6)
 
 add_subdirectory(1Strategy)
 add_subdirectory(2Agent)
+add_subdirectory(3Single)
 
 
 IF(WIN32)
