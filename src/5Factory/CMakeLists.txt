@@ -50,9 +50,9 @@ include_directories(
 	
 
 IF(WIN32)
-	ADD_EXECUTABLE(Single ${Factory_SRCS} ${Factory_SRCS_W})   
+	ADD_EXECUTABLE(Factory ${Factory_SRCS} ${Factory_SRCS_W})   
 ELSE(WIN32)
-	ADD_EXECUTABLE(Single ${Factory_SRCS} ${Factory_SRCS_U})   
+	ADD_EXECUTABLE(Factory ${Factory_SRCS} ${Factory_SRCS_U})   
 ENDIF(WIN32)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
