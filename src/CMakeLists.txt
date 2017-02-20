@@ -7,6 +7,7 @@ add_subdirectory(2Agent)
 add_subdirectory(3Single)
 #add_subdirectory(4Multi)
 add_subdirectory(5Factory)
+add_subdirectory(6Facade)
 
 
 IF(WIN32)
