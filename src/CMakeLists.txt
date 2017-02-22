@@ -9,6 +9,7 @@ add_subdirectory(3Single)
 add_subdirectory(5Factory)
 add_subdirectory(6Facade)
 add_subdirectory(7AbstractFactory)
+add_subdirectory(8Adapter)
 
 
 IF(WIN32)
