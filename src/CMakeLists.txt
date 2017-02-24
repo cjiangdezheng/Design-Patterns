@@ -12,6 +12,7 @@ add_subdirectory(7AbstractFactory)
 add_subdirectory(8Adapter)
 add_subdirectory(9Template)
 add_subdirectory(10Builder)
+add_subdirectory(11Bridge)
 
 
 IF(WIN32)
