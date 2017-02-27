@@ -13,6 +13,7 @@ add_subdirectory(8Adapter)
 add_subdirectory(9Template)
 add_subdirectory(10Builder)
 add_subdirectory(11Bridge)
+add_subdirectory(12Command)
 
 
 IF(WIN32)
