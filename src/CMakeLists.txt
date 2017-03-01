@@ -15,6 +15,7 @@ add_subdirectory(10Builder)
 add_subdirectory(11Bridge)
 add_subdirectory(12Command)
 add_subdirectory(13Decorator)
+add_subdirectory(14Iterator)
 
 
 IF(WIN32)
