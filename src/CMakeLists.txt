@@ -16,6 +16,8 @@ add_subdirectory(11Bridge)
 add_subdirectory(12Command)
 add_subdirectory(13Decorator)
 add_subdirectory(14Iterator)
+#add_subdirectory(15XXX)
+add_subdirectory(16Observer)
 
 
 IF(WIN32)
