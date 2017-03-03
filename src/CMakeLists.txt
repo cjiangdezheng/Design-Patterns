@@ -18,6 +18,7 @@ add_subdirectory(13Decorator)
 add_subdirectory(14Iterator)
 #add_subdirectory(15XXX)
 add_subdirectory(16Observer)
+add_subdirectory(17ChainOfResponsibility)
 
 
 IF(WIN32)
