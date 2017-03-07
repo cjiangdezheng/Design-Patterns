@@ -21,6 +21,7 @@ add_subdirectory(16Observer)
 add_subdirectory(17ChainOfResponsibility)
 add_subdirectory(18Visitor)
 add_subdirectory(19State)
+add_subdirectory(20Memento)
 
 
 IF(WIN32)
