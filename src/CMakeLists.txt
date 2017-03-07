@@ -22,6 +22,7 @@ add_subdirectory(17ChainOfResponsibility)
 add_subdirectory(18Visitor)
 add_subdirectory(19State)
 add_subdirectory(20Prototype)
+add_subdirectory(21Flyweight)
 
 
 
