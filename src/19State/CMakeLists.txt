@@ -11,27 +11,32 @@ ELSE(MSVC)
 
 ENDIF(MSVC) 
 
-set(Visitor_SRCS
+set(State_SRCS
 	stdafx.cpp
 	stdafx.h
-	BaseVisitor.cpp
-	BaseVisitor.h
-	CommonEmployee.cpp
-	CommonEmployee.h
-	Employee.cpp
-	Employee.h
-	IVisitor.h
-	Manager.cpp
-	Manager.h
-	Visitor.cpp
-
+	CloseingState.cpp
+	CloseingState.h
+	Contex.cpp
+	Contex.h
+	ILift.h
+	Lift.cpp
+	Lift.h
+	LiftState.cpp
+	LiftState.h
+	OpenningState.cpp
+	OpenningState.h
+	RunningState.cpp
+	RunningState.h
+	State.cpp
+	StoppingState.cpp
+	StoppingState.h
 )
 
-set(Visitor_SRCS_W
+set(State_SRCS_W
 	targetver.h
 	
 )
-set(Visitor_SRCS_U
+set(State_SRCS_U
 #	XXX.cpp
 )
 
@@ -39,15 +44,15 @@ set(Visitor_SRCS_U
 
 
 include_directories(
-	${PROJECT_SOURCE_DIR}/18Visitor
+	${PROJECT_SOURCE_DIR}/19State
 	)
 
 	
 
 IF(WIN32)
-	ADD_EXECUTABLE(Visitor ${Visitor_SRCS} ${Visitor_SRCS_W})   
+	ADD_EXECUTABLE(State ${State_SRCS} ${State_SRCS_W})   
 ELSE(WIN32)
-	ADD_EXECUTABLE(Visitor ${Visitor_SRCS} ${Visitor_SRCS_U})   
+	ADD_EXECUTABLE(State ${State_SRCS} ${State_SRCS_U})   
 ENDIF(WIN32)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
