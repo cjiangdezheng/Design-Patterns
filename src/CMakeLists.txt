@@ -16,12 +16,12 @@ add_subdirectory(11Bridge)
 add_subdirectory(12Command)
 add_subdirectory(13Decorator)
 add_subdirectory(14Iterator)
-#add_subdirectory(15XXX)
+add_subdirectory(15Memento)
 add_subdirectory(16Observer)
 add_subdirectory(17ChainOfResponsibility)
 add_subdirectory(18Visitor)
 add_subdirectory(19State)
-add_subdirectory(20Memento)
+
 
 
 IF(WIN32)

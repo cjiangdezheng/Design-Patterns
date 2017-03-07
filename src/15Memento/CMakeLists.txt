@@ -28,7 +28,7 @@ set(Memento_SRCS_U
 
 
 include_directories(
-	${PROJECT_SOURCE_DIR}/20Memento
+	${PROJECT_SOURCE_DIR}/15Memento
 	)
 
 	
