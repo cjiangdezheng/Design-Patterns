@@ -11,16 +11,20 @@ ELSE(MSVC)
 
 ENDIF(MSVC) 
 
-set(Flyweight_SRCS
+set(Interpreter_SRCS
 	stdafx.cpp
 	stdafx.h
-	Flyweight.cpp
+	Interpreter.cpp
+	Context.cpp
+	Context.h
+	Interpret.cpp
+	Interpret.h
 )
 
-set(Flyweight_SRCS_W
+set(Interpreter_SRCS_W
 	
 )
-set(Flyweight_SRCS_U
+set(Interpreter_SRCS_U
 #	XXX.cpp
 )
 
@@ -28,15 +32,15 @@ set(Flyweight_SRCS_U
 
 
 include_directories(
-	${PROJECT_SOURCE_DIR}/21Flyweight
+	${PROJECT_SOURCE_DIR}/22Interpreter
 	)
 
 	
 
 IF(WIN32)
-	ADD_EXECUTABLE(Flyweight ${Flyweight_SRCS} ${Flyweight_SRCS_W})   
+	ADD_EXECUTABLE(Interpreter ${Interpreter_SRCS} ${Interpreter_SRCS_W})   
 ELSE(WIN32)
-	ADD_EXECUTABLE(Flyweight ${Flyweight_SRCS} ${Flyweight_SRCS_U})   
+	ADD_EXECUTABLE(Interpreter ${Interpreter_SRCS} ${Interpreter_SRCS_U})   
 ENDIF(WIN32)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})

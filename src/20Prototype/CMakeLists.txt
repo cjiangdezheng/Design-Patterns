@@ -18,7 +18,6 @@ set(Prototype_SRCS
 )
 
 set(Prototype_SRCS_W
-	targetver.h
 	
 )
 set(Prototype_SRCS_U
