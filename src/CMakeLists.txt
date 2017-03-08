@@ -23,6 +23,8 @@ add_subdirectory(18Visitor)
 add_subdirectory(19State)
 add_subdirectory(20Prototype)
 add_subdirectory(21Flyweight)
+add_subdirectory(22Interpreter)
+add_subdirectory(23Mediator)
 
 
 
