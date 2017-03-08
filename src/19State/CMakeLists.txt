@@ -16,8 +16,8 @@ set(State_SRCS
 	stdafx.h
 	CloseingState.cpp
 	CloseingState.h
-	Contex.cpp
-	Contex.h
+	Context.cpp
+	Context.h
 	ILift.h
 	Lift.cpp
 	Lift.h
@@ -34,7 +34,6 @@ set(State_SRCS
 
 set(State_SRCS_W
 	targetver.h
-	
 )
 set(State_SRCS_U
 #	XXX.cpp
