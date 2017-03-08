@@ -15,6 +15,7 @@ set(Flyweight_SRCS
 	stdafx.cpp
 	stdafx.h
 	Flyweight.cpp
+	targetver.h
 )
 
 set(Flyweight_SRCS_W

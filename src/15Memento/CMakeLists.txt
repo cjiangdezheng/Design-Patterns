@@ -15,6 +15,7 @@ set(Memento_SRCS
 	stdafx.cpp
 	stdafx.h
 	Memento.cpp
+	targetver.h
 )
 
 set(Memento_SRCS_W

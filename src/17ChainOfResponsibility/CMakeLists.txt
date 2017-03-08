@@ -11,7 +11,7 @@ ELSE(MSVC)
 
 ENDIF(MSVC) 
 
-set(Responsibility_SRCS
+set(ChainOfResponsibility_SRCS
 	stdafx.cpp
 	stdafx.h
 	ChainofResponsibility.cpp
@@ -28,11 +28,11 @@ set(Responsibility_SRCS
 	Women.h	
 )
 
-set(Responsibility_SRCS_W
+set(ChainOfResponsibility_SRCS_W
 	targetver.h
 	
 )
-set(Responsibility_SRCS_U
+set(ChainOfResponsibility_SRCS_U
 #	XXX.cpp
 )
 
@@ -40,15 +40,15 @@ set(Responsibility_SRCS_U
 
 
 include_directories(
-	${PROJECT_SOURCE_DIR}/17Responsibility
+	${PROJECT_SOURCE_DIR}/17ChainOfResponsibility
 	)
 
 	
 
 IF(WIN32)
-	ADD_EXECUTABLE(Responsibility ${Responsibility_SRCS} ${Responsibility_SRCS_W})   
+	ADD_EXECUTABLE(ChainOfResponsibility ${ChainOfResponsibility_SRCS} ${ChainOfResponsibility_SRCS_W})   
 ELSE(WIN32)
-	ADD_EXECUTABLE(Responsibility ${Responsibility_SRCS} ${Responsibility_SRCS_U})   
+	ADD_EXECUTABLE(ChainOfResponsibility ${ChainOfResponsibility_SRCS} ${ChainOfResponsibility_SRCS_U})   
 ENDIF(WIN32)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})

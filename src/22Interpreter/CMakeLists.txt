@@ -19,6 +19,7 @@ set(Interpreter_SRCS
 	Context.h
 	Interpret.cpp
 	Interpret.h
+	targetver.h
 )
 
 set(Interpreter_SRCS_W

@@ -19,6 +19,7 @@ set(Mediator_SRCS
 	Person.cpp
 	Person.h
 	Mediator.cpp	
+	targetver.h
 )
 
 set(Mediator_SRCS_W

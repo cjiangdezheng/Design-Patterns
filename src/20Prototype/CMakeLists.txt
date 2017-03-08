@@ -15,6 +15,7 @@ set(Prototype_SRCS
 	stdafx.cpp
 	stdafx.h
 	Prototype.cpp
+	targetver.h
 )
 
 set(Prototype_SRCS_W
