@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 2.6)
 #source code folder2
 add_subdirectory(src)
 asd
-asdmybranch---------------2
+asdmybranch---------------2  beyond compare≈‰÷√Œ™diffπ§æﬂ
 mybranch---------------3
 mybranch---------------4
 k
